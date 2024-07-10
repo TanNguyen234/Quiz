@@ -1,0 +1,50 @@
+.layout-default {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        background-color: orange;
+        padding: 5px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        & li {
+            padding: 5px;
+             & a {
+                text-decoration: none;
+             }
+        }
+    }
+
+    &__account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & a {
+            padding: 5px;
+            text-decoration: none;
+        }
+    }
+
+    &__main {
+        padding: 20px 0;
+    }
+
+    &__footer {
+        background-color: orange;
+        text-align: center;
+        padding:  10px 0;
+    }
+}

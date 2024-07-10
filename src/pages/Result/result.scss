@@ -1,0 +1,21 @@
+.result {
+    &__tag {
+        &--true {
+            color: green;
+        }
+    
+        &--false {
+            color: red;
+        }
+    }
+
+    &__item {
+        &--selected {
+            color: red;
+        }
+        
+        &--correct {
+            color: green;
+        }
+    }
+}
