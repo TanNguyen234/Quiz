@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from "react-router-dom";
-import { getCookie } from "../../../../../Quiz-app-1/quiz/src/helpers/cookie";
+import { getCookie } from "../../helpers/getCookie";
 
 function PrivateRoutes() {
 

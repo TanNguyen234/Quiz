@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { setCookie } from "../../helpers/cookie";
 import { useDispatch } from "react-redux";
 import { checkExist, register } from "../../services/userService";
 import { generalRandomString } from "../../helpers/generateToken";
